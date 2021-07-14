@@ -1,7 +1,7 @@
 ## Goal For this Project
-Welcome to Tessa Chan Designs! This is a portfolio website showcasing range of her past and latest projects as a graphic designer.
-On this site you can find relevant information you need as a visitor, which grouped together in an appealing and accessible on a 
-range of devices. The website is personalised by providing some information about the designer and images of her past and latest projects.
+Welcome to Memory Game! The memory game is a basic matching game to test the player's memory. In a deck of paired cards, the player needs to match each pair to win the game.
+
+Thank you for visiting my project, if you have any feedback or questions, head over to my GitHub contact details and feel free to reach out to me.
 
 ## Contents
 
