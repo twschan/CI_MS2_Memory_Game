@@ -49,19 +49,17 @@ Thank you for visiting my project, if you have any feedback or questions, head o
 * During the game to track score and time
 * To be able to restart game whenever.
 
-#### First Time Visitor Goals
-1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the designer.
-2. As a First Time Visitor, I want to easily find out information about the designer.
-3. As a First Time Visitor, I want to be able to find the website is easily accessible and stand out from other designers.
-4. As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-5. As a First Time Visitor, I want to find information about her projects and various images about her designs.
-6. As a First Time Visitor, I want to be able to reach out to the designer via the website.
-
-
-#### Returning Visitor Goals
-7. As a Returning Visitor, I want to find information and updates about her latest projects.
-8. As a Returning Visitor, I want to find the best way to get in contact with the designer with any questions I may have.
-9. As a Returning Visitor, I want to be able to get a downloadable CV of the site owner to easily share with others.
+#### User Stories
+1. As a user, I would like to track score during the game.
+2. As a user, I would like to know when cards chosen are in pairs and flips when wrong.
+3. As a user, I want to be able to start a game when I'm ready. 
+4. As a user, I want to view the website and content clearly on any device.
+5. As a user, I expect the game to be testing my memory.
+6. As a user, I want to know when I completed the game and progress.
+7. As a user, I want to be able to restart the game whenever I want.
+8. As a user, I want the images to be visually appealing and clear.
+9. As a user, I want to see moves I've used and the time it took me.
+10. As a user, I want to see contact information for the site owner incase I want to reach out with any queries I have about the site.
 
 #### Site Owner Goals
 10. As a site owner, I want users to see projects that showcase skills and growth.
