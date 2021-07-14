@@ -1,102 +1,86 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Goal For this Project
+Welcome to Tessa Chan Designs! This is a portfolio website showcasing range of her past and latest projects as a graphic designer.
+On this site you can find relevant information you need as a visitor, which grouped together in an appealing and accessible on a 
+range of devices. The website is personalised by providing some information about the designer and images of her past and latest projects.
 
-Welcome USER_NAME,
+## Contents
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+* [User experience](#user-experience)
+     + [User Goals](#user-goals)
+     + [Site Owner Goals](#site-owner-goals)
+* [User Requirements and Expectations](#user-requirements-and-expectations)
+    + [Requirements](#requirements)
+    + [Expectations](#expectations)
+*  [Design Choices](#design-choices)
+    + [Colour Scheme](#colour-scheme)
+    + [Typography](#typography)
+    + [Icon](#icon)
+    + [Imagery](#imagery)
+* [Scope](#scope)
+*  [Wireframes](#wireframes)
 
-## Gitpod Reminders
+  * [Features](#features)
+     + [Existing Features](#existing-features)
+     + [Features to Implement in the future](#features-to-implement-in-the-future)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+  * [Technologies](#technologies)
+     + [Languages Used](#languages-used)
+     + [Libraries Frameworks and Programs Used](#libraries-frameworks-and-programs-used)
 
-`python3 -m http.server`
+  * [Testing](#testing)
 
-A blue button should appear to click: _Make Public_,
+  * [Bugs](#bugs)
 
-Another blue button should appear to click: _Open Browser_.
+  * [Deployment](#deployment)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  * [Credits](#credits)
 
-A blue button should appear to click: _Make Public_,
+  * [Acknowledgements](#acknowledgements)
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
 ---
+# User experience
 
-Happy coding!
+### User Goals
+* A website filled with valuable content 
+* Website should be easy to use on a desktop, tablet and mobile
+* Appealing visual elements
+* Contact details should be easy to find
+* A form to contact designer directly from site
+* Website with creative call-to-actions
+* Easy to navigate throughout the site to find content 
+
+#### First Time Visitor Goals
+1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the designer.
+2. As a First Time Visitor, I want to easily find out information about the designer.
+3. As a First Time Visitor, I want to be able to find the website is easily accessible and stand out from other designers.
+4. As a First Time Visitor, I want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+5. As a First Time Visitor, I want to find information about her projects and various images about her designs.
+6. As a First Time Visitor, I want to be able to reach out to the designer via the website.
+
+
+#### Returning Visitor Goals
+7. As a Returning Visitor, I want to find information and updates about her latest projects.
+8. As a Returning Visitor, I want to find the best way to get in contact with the designer with any questions I may have.
+9. As a Returning Visitor, I want to be able to get a downloadable CV of the site owner to easily share with others.
+
+#### Site Owner Goals
+10. As a site owner, I want users to see projects that showcase skills and growth.
+11. As a site owner, I want to connect to potential jobs and projects.
+12. As a site owner, I want users to be able to contact the site owner easily for hire opportunities, collabrations and networking.
+
+### User Requirements and Expectations
+
+#### Requirements
+* Easy to navigate by using the navigation menu
+* Appealing visual elements
+* Clear information about the designer
+* Relevant content about each projects
+* Easy way to contact the designer
+
+#### Expectations
+* When clicking on links e.g social media, I expect the page to open in a seperate browser.
+* I expect a message to be entered when submitting the contact form and that the form has been submitted correctly.
+* I expect the navigation links to work properly so that it takes me to wherever I want to go.
+* Clear information on each projects.
