@@ -62,9 +62,9 @@ Thank you for visiting my project, if you have any feedback or questions, head o
 10. As a user, I want to see contact information for the site owner incase I want to reach out with any queries I have about the site.
 
 #### Site Owner Goals
-10. As a site owner, I want users to see projects that showcase skills and growth.
-11. As a site owner, I want to connect to potential jobs and projects.
-12. As a site owner, I want users to be able to contact the site owner easily for hire opportunities, collabrations and networking.
+11. To showcase the skills I have learnt in HTML, CSS and JavaScript.
+12. For the users to challenge the memory game to beat their scores.
+13. To create an enjoyable, interactive game that make users want to stay and play again.
 
 ### User Requirements and Expectations
 
