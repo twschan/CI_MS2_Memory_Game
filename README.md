@@ -47,7 +47,7 @@ Thank you for visiting my project, if you have any feedback or questions, head o
 * A feedback of when I completed the game
 * Appealing visual elements
 * During the game to track score and time
-* To be able to restart game whenever.
+* To be able to restart game whenever
 
 #### User Stories
 1. As a user, I would like to track score during the game.
@@ -69,14 +69,14 @@ Thank you for visiting my project, if you have any feedback or questions, head o
 ### User Requirements and Expectations
 
 #### Requirements
-* Easy to navigate by using the navigation menu
-* Appealing visual elements
-* Clear information about the designer
-* Relevant content about each projects
-* Easy way to contact the designer
+* Clear information and a easy way to start the memory game.
+* Keep track of the game progress.
+* Game should know how to handle matched and unmatched cards.
+* Game should display the current number of moves a user has made.
 
 #### Expectations
-* When clicking on links e.g social media, I expect the page to open in a seperate browser.
-* I expect a message to be entered when submitting the contact form and that the form has been submitted correctly.
-* I expect the navigation links to work properly so that it takes me to wherever I want to go.
-* Clear information on each projects.
+* Cards are to be shuffled on load or restart.
+* The game should show a star rating (from 1-3) that reflects the user's performance based on the number of moves made.
+* When a user starts a game, a displayed timer should also start and once the user wins the game, the timer stops.
+* A restart button should allow the user reset the game board, the timer and the star rating.
+* A congratulations message should appear when the user wins the game.
