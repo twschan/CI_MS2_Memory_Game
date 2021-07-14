@@ -43,13 +43,11 @@ Thank you for visiting my project, if you have any feedback or questions, head o
 # User experience
 
 ### User Goals
-* A website filled with valuable content 
-* Website should be easy to use on a desktop, tablet and mobile
+* The game has to be responsive on various devices
+* A feedback of when I completed the game
 * Appealing visual elements
-* Contact details should be easy to find
-* A form to contact designer directly from site
-* Website with creative call-to-actions
-* Easy to navigate throughout the site to find content 
+* During the game to track score and time
+* To be able to restart game whenever.
 
 #### First Time Visitor Goals
 1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the designer.
