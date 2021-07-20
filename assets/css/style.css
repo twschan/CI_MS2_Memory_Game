@@ -4,21 +4,26 @@
 
 body {
     margin: 20px 0;
-    background: #6589F9;
+    background: rgb(128,25,32);
     font-family: 'Roboto', sans-serif;
 }
+/* Headings */
 
 h1 {
     font-family: 'Zen Dots', sans-serif;
     font-size: 45px;
-    letter-spacing: 12px;
+    letter-spacing: 5px;
+    color: white;
 }
 
 h2 {
     font-family: 'Zen Dots', sans-serif;
+    font-size: 23px;
+    color: white;
 }
 
-/* Cards */
+/* Cards, hover, flip */
+
 *,
 *::before
 *::after {
