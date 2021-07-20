@@ -10,10 +10,25 @@
 </head>
 <body>
     <!-- Navigation bar -->
-    <!-- Homepage with a 'How to play' and start game button -->
-    <header></header>
-    <!-- Game section-->
+    
+    <header>
+        <div class="container text-center">
+        <h1 class="mt-5">Memory Game</h1>
+        <h3 class="mt-5">Card Matching Game</h3>
+        </div>
+    </header>
+   
     <main>
+    <!-- Homepage with a 'How to play' and start game button -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12 button-container">
+                    <a href="#game" id="start-game" class="buttons" aria-label="start-game">Start Game</a>
+                    <a href="#modal" id="how-to" class="buttons" aria-label="how-to-play">How to Play?</a>
+                </div>
+            </div>
+        </section>
+     <!-- Game section-->
         <div id="game"></div>
     </main>  
     <!-- End screen -->
