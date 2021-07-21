@@ -1,3 +1,7 @@
+# <h1 align="center">Memory Game</h1>
+
+A deployed link to the website can be found [here](https://twschan.github.io/CI_MS2_Memory_Game/)
+
 ## Goal For this Project
 Welcome to Memory Game! The memory game is a basic matching game to test the player's memory. In a deck of paired cards, the player needs to match each pair to win the game.
 
