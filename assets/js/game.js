@@ -12,3 +12,11 @@ const cardsArray = [
     { name: "takoyaki", img: "./assets/images/takoyaki.png", },
     { name: "tempura", img: "./assets/images/tempura.png", },
 ];
+
+// Grab the div with an id of root
+const game = document.getElementById('game')
+// Create a section with a class of grid
+const grid = document.createElement('section') 
+grid.setAttribute('class', 'grid')
+// Apend the grid section to the game div
+game.appendChild(grid)
