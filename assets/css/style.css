@@ -2,11 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&family=Zeyada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Dots&display=swap');
 
+html,
 body {
-    margin: 0;
-    background: rgb(128,25,32);
-    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:#801920;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
 /* Headings */
 
 .navbar,
@@ -26,12 +34,37 @@ h2 {
     color: white;
 }
 
+/* Main section */
+
+.btn-primary {
+    margin: 5px;
+    padding: 0.4rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 1.25rem;
+    background-color: #a4985d;
+    border-color: transparent;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #801920;
+    border-color: #fff;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    background-color: #a4985d;
+    border-color: transparent;
+}
+
 .modal-content {
     border-radius: 1.3rem;
-    background-color: rgb(128,25,32);
+    background-color: #a4985d;
     color: white;
     font-size: 18px;
-    }
+}
 
 
 /* Cards, hover, flip */
@@ -39,7 +72,7 @@ h2 {
 *,
 *::before
 *::after {
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 .grid {
