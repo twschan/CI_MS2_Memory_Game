@@ -22,6 +22,14 @@ h2 {
     color: white;
 }
 
+.modal-content {
+    border-radius: 1.3rem;
+    background-color: rgb(128,25,32);
+    color: white;
+    font-size: 18px;
+    }
+
+
 /* Cards, hover, flip */
 
 *,
