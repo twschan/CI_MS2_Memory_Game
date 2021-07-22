@@ -14,9 +14,18 @@ const cardsArray = [
 ];
 
 // Grab the div with an id of root
-const game = document.getElementById('game')
 // Create a section with a class of grid
+// Apend the grid section to the game div
+const game = document.getElementById('game')
 const grid = document.createElement('section') 
 grid.setAttribute('class', 'grid')
-// Apend the grid section to the game div
 game.appendChild(grid)
+
+// For each item in the cardsArray array
+cardsArray.forEach((item) => {
+    const card = document.createElement('div')
+    card.classList.add('card')
+    card.dataset.name = item.name
+    card.style.backgroundImage = `url(${item.img})`
+    grid.appendChild(card)
+})
