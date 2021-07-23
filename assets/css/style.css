@@ -54,9 +54,20 @@ h2 {
 }
 
 .btn-primary:hover,
-.btn-secondary:hover {
-    background-color: #a4985d;
+.btn-secondary:hover,
+.btn-level:hover {
+    background-color: #d3c272;
     border-color: transparent;
+}
+
+.btn-level {
+    margin: 20px 5px 5px 5px;
+    padding: 0.375rem 1.75rem;
+    font-size: 1.5rem;
+    border-radius: 2.25rem;
+    background-color: #801920;
+    border-color: transparent;
+    color: white;
 }
 
 .modal-content {
@@ -64,8 +75,21 @@ h2 {
     background-color: #a4985d;
     color: white;
     font-size: 18px;
+    text-align: left;
 }
 
+.modal-body {
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: 330px;
+}
+
+.modal-header,
+.modal-footer {
+    border-top: none;
+    border-bottom: none;
+}
 
 /* Cards, hover, flip */
 
