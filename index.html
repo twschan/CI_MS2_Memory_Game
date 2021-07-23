@@ -23,6 +23,7 @@
     </header>
     <main>
         <!-- Homepage with a 'How to play' and start game button -->
+        <!-- Button trigger modal windows (codes for modals, buttons, badges are taken from bootstrap)-->
         <section class="container text-center mt-5">
             <div>
                 <button type="button" class="btn btn-primary btn-play" data-bs-toggle="modal"
@@ -30,6 +31,23 @@
             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                     data-bs-target="#description-window">How to play</button>
             </div>
+            <!-- Start game button-->
+            <div class="modal fade" id="play-window" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="playWindowTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-sm modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Game difficulty:</h2>
+                            <button type="button" id="btn-easy" class="btn-level" data-difficulty="6">EASY</button>
+                            <button type="button" id="btn-medium" class="btn-level" data-difficulty="8">MEDIUM</button>
+                            <button type="button" id="btn-hard" class="btn-level" data-difficulty="10">HARD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- How to play memory game modal-->
             <div class="modal fade" id="description-window" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
                 aria-labelledby="playWindowTitle" aria-hidden="true">
@@ -70,6 +88,7 @@
     </main>
     <!-- End screen -->
     <!-- Congrats message for completing game and total score of the game modal-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!--Link to javascript file-->
     <script src="assets/js/game.js"></script>
