@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +14,6 @@
         crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
     <!-- Navigation bar -->
     <header>
@@ -30,7 +28,7 @@
         <!-- Homepage with a 'How to play' and start game button -->
         <!-- Button trigger modal windows (codes for modals, buttons, badges are taken from bootstrap)-->
         <section class="container text-center mt-5">
-            <div>
+            <div class="menu-page d-block">
                 <button type="button" class="btn btn-primary btn-play" data-bs-toggle="modal"
                     data-bs-target="#play-window">Start Game</button>
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal"
@@ -53,7 +51,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- How to play memory game modal-->
             <div class="modal fade" id="description-window" data-bs-backdrop="static" data-bs-keyboard="false"
                 tabindex="-1" aria-labelledby="playWindowTitle" aria-hidden="true">
@@ -87,7 +84,7 @@
             </div>
         </section>
         <!-- Game section-->
-        <div class="game-section d-none" id="game">
+        <div class="game-section d-none">
             <div class="d-inline-block score mt-2 mr-2">
                 <p>
                     <ul class="stars">
@@ -140,5 +137,4 @@
     <!--Link to javascript file-->
     <script src="assets/js/game.js"></script>
 </body>
-
 </html>
