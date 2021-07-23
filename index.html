@@ -109,20 +109,25 @@
     </main>
     <!-- End screen -->
     <!-- Congrats message for completing game and total score of the game modal-->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="modal fade" id="endGame" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="endGameLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <div class="content-1">
+                        <h2>Congratulations you're a winner</h2>
+                    </div>
+                    <div class="content-2">
+                        <p>You made <span class="result" id=finalMove> </span> moves </p>
+                        <p>in <span class="result" id=totalTime> </span> </p>
+                        <p>Rating:  <span id=starRating></span></p>
+                    </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Understood</button>
+                <div class="modal-footer btn-center">
+                    <button type="button" class="btn btn-restart btn-secondary">Play Again</button>
                 </div>
             </div>
         </div>
