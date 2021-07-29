@@ -33,3 +33,22 @@ function shuffle(array) {
 
     return array;
 }
+
+// Init the game
+// Clear deck, init variables, shuffle cards and put them back on
+
+function initGame() {
+    document.querySelector('.card-area').innerHTML = '';
+    shuffle(possibleCards);
+    opened = [];
+    numMoves = 0;
+    numMatch = 0;
+    resetTimer();
+    runTimer();
+    printMoves();
+
+    for(i=0;i<numCards;i++) 
+        document.querySelector('.card-area').innerHTML += `<li class="card"><img src="assets/images/${possibleCards[i]}.svg"/></li>`;
+};
+
+
