@@ -51,4 +51,31 @@ function initGame() {
         document.querySelector('.card-area').innerHTML += `<li class="card"><img src="assets/images/${possibleCards[i]}.svg"/></li>`;
 };
 
+/*Clicking level buttons*/
 
+$(".btn-level").click(function () {
+    $(".menu-page").removeClass("d-block");
+    $(".menu-page").addClass("d-none");
+    $(".game-window").removeClass("d-none");
+    $(".game-window").addClass("d-block");
+    $("#playWindow").modal("hide");
+    amount = $(this).attr("data-difficulty");
+    showCards(amount);
+    amountFlips = 0;
+    openedCardCount = 0;
+    steps.innerHTML = " Steps: " + amountFlips;
+    level.innerHTML = " Level: " + $(this).text();
+});
+
+$(".btn-restart").click(function () {
+    clearTimeout(wrongGuessTimeout);
+    clearTimeout(timerTimeout);
+    $(".menu-page").removeClass("d-none");
+    $(".menu-page").addClass("d-block");
+    $(".game-window").removeClass("d-block");
+    $(".game-window").addClass("d-none");
+    $("#gameEnd").modal("hide");
+    $("#playWindow").modal("show");
+    timer.innerHTML = "Time: 00:00";
+    stopTimer();
+});
