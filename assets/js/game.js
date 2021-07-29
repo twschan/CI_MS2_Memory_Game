@@ -34,22 +34,37 @@ function shuffle(array) {
     return array;
 }
 
-// Init the game
 // Clear deck, init variables, shuffle cards and put them back on
 
-function initGame() {
-    document.querySelector('.card-area').innerHTML = '';
-    shuffle(possibleCards);
-    opened = [];
-    numMoves = 0;
-    numMatch = 0;
-    resetTimer();
-    runTimer();
-    printMoves();
+function showCards(baseCards) {
+    var el = document.getElementById("cards");
+    el.innerHTML = "";
+    var imagesArray = [];
 
-    for(i=0;i<numCards;i++) 
-        document.querySelector('.card-area').innerHTML += `<li class="card"><img src="assets/images/${possibleCards[i]}.svg"/></li>`;
-};
+    getCards(baseCards, function (data) {
+        data = data.message;
+
+        var backCard = '<div class = "back-side card-side"><img src="assets/images/back.svg"></div>';
+
+        data.forEach(function (item) {
+            var frontCard = '<div class = "front-side card-side " ><img src="' + item + '"></div>';
+            imagesArray.push(frontCard);
+            imagesArray.push(frontCard);
+        });
+
+        imagesArray = shuffle(imagesArray);
+
+        var row = "";
+        for (var i = 0; i < imagesArray.length; i++) {
+            row += backCard + imagesArray[i];
+            var row_counter = parseInt(i) + 1;
+            if (row_counter % 4 == 0) {
+                el.innerHTML += "<div>" + row + "</div>";
+                row = "";
+            }
+        }
+    });
+}
 
 /*Clicking level buttons*/
 
