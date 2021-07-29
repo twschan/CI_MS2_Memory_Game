@@ -79,3 +79,15 @@ $(".btn-restart").click(function () {
     timer.innerHTML = "Time: 00:00";
     stopTimer();
 });
+
+$(".btn-mainmenu").click(function () {
+    clearTimeout(wrongGuessTimeout);
+    clearTimeout(timerTimeout);
+    $(".menu-page").removeClass("d-none");
+    $(".menu-page").addClass("d-block");
+    $(".game-window").removeClass("d-block");
+    $(".game-window").addClass("d-none");
+    $("#gameEnd").modal("hide");
+    timer.innerHTML = "Time: 00:00";
+    stopTimer();
+});
